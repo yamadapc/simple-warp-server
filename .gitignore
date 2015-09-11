@@ -1,0 +1,4 @@
+.cabal-sandbox
+docsets
+cabal.sandbox.config
+*.pyc
