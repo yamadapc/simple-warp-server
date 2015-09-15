@@ -54,8 +54,6 @@ server.on('request', function(req, res) {
 });
 
 server.listen(1337, '127.0.0.1');
-
-http.createServer(handleRequest).listen(1337, '127.0.0.1');;
 ```
 
 This is a very common idiom in JavaScript. `http.Server` is actually an
